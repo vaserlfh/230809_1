@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Nanum+Gothic:wght@400;800&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>정창호</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .nav {
+            list-style-type: none;
+            width: 17%;
+            background-color: #f6f6f6;
+            position: fixed;
+            height: 100%;
+            overflow: auto;
+            margin: 0;
+            padding: 0%;
+            text-align: center;
+            float: left;
+        }
+
+        .back {
+            font-size: 35px;
+            display: block;
+            color: #e8344e;
+            margin-top: 10%;
+
+            background-color: transparent;
+        }
+
+		.back:hover {
+            transform: scale(1.2);
+        }
+
+        .profile {
+            margin-top: 50%;
+            margin-bottom: 15%;
+            width: 70%;
+            border-radius: 50%
+        }
+
+        .menu {
+            color: #e8344e;
+            text-decoration: none;
+            font-size: 25px;
+            font-family: 'Do Hyeon', sans-serif;
+        }
+
+        .menu:hover {
+            color: rgb(0, 0, 0);
+            font-weight: 500;
+        }
+
+        .content {
+            margin-left: 21%;
+            padding-bottom: 10%;
+            width: 83%;
+            height: 1000px;
+            font-family: 'Nanum Gothic', sans-serif;
+            float: left;
+        }
+
+        .sns ul{
+             position: relative;
+             top: 50%;
+             padding: 0;
+             margin: 0;
+             display: flex;
+             justify-content: left;
+        }
+
+        .sns li{
+            list-style: none;
+            margin: 0 15px;
+        }
+
+        .sns li:hover {
+            transform: scale(1.2);
+        }
+
+        .sns ul li a{
+            position: relative;
+            display: inline-block;
+            width: 60px;
+            height: 60px;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        .github {
+            content:"";
+            background-image: url("https://cdn-icons-png.flaticon.com/512/25/25231.png");
+            background-size:50px 50px;
+            background-repeat: no-repeat;
+            width:100px;
+            height:100px;
+            display:inline-block;
+            margin: 5px 0 0 5px;
+        }
+
+        .blog {
+            content:"";
+            background-image: url("https://cdn-icons-png.flaticon.com/512/4922/4922073.png");
+            background-size:50px 50px;
+            background-repeat: no-repeat;
+            width:100px;
+            height:100px;
+            display:inline-block;
+            margin: 5px 0 0 5px;
+        }
+
+        .email {
+            content:"";
+            background-image: url("https://www.freepnglogos.com/uploads/email-logo-png-27.png");
+            background-size:50px 50px;
+            background-repeat: no-repeat;
+            width:100px;
+            height:100px;
+            display:inline-block;
+            margin: 5px 0 0 5px;
+        }
+
+        .lan {
+            height:60px;
+            margin-top: 2%;
+            margin-right: 1%;
+            object-fit: contain;
+            display:inline-block;
+            object-position: center;
+        }
+
+        .fav {
+            width: 150px;
+            aspect-ratio: 1/1;
+            padding: 20px;
+            border-radius: 30%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <ul class="nav">
+        <li class="back">🏠︎</li>
+        <img class="profile"
+            src="https://opengameart.org/sites/default/files/backgroundSpace_01.1.png"
+            alt="배경">
+        <li><a href="#about" class="menu">About me</a></li>
+        <br>
+        <li><a href="#skill" class="menu">Skill</a></li>
+        <br>
+        <li><a href="#what" class="menu">What I Like</a></li>
+    </ul>
+
+    <div class="content">
+        <h1 style="margin-top: 20%; font-size: 85px; font-family: 'Nanum Gothic', sans-serif; letter-spacing: 25px;">정창호
+        </h1>
+        <div class = "sns">
+            <ul>
+                <li><a class="github" href="https://github.com/vaserlfh" target="blank" ></a></li>
+                <li><a class="blog" href="https://velog.io/@ckdgh7593" target="blank" ></a></li>
+                <li><a class="email" href="mailto:ckdgh7593@gmail.com" target="blank" ></a></li>
+            </ul>
+        </div>
+        <h1 style="margin-top: 6.5%; font-size: 35px; margin-left:5px; margin-right: 300px; font-weight: 300; word-break: keep-all" id="about">
+            About Me</h1>
+        <h2 style="margin-top: 1%; color: rgb(153, 153, 153); margin-left:5px; margin-right: 300px; font-weight: 300; word-break: keep-all">
+            MBTI는 INTP. 원래 전공은 다른 분야였지만 적성에 맞지 않다고 판단하여 진로를 코딩 쪽으로 바꿨습니다. 전공자들에 비해 아직 부족한 점은 많지만 경험을 쌓는다고 생각하고 열심히 배워보고자 합니다.</h2>
+        <h1 style="margin-top: 5.5%; font-size: 35px; margin-left:5px; margin-right: 300px; font-weight: 300; word-break: keep-all" id="skill">
+            Skill</h1>
+        <h2 style="margin-top: 1%; color: rgb(153, 153, 153); margin-left:5px; margin-right: 300px; font-weight: 300; word-break: keep-all line-height: 1.3em; line-height: 50px;">
+            <img class="lan" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png">
+            <img class="lan" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1822px-ISO_C%2B%2B_Logo.svg.png">
+        </h2>
+        <h2 style="margin-top: 1%; color: rgb(153, 153, 153); margin-left:5px; margin-right: 300px; font-weight: 300; word-break: keep-all">
+            <a style = "width: 70%; text-align: right; margin-top: 9%; margin-right: 5%;">이제 막 시작한 참이라 개발에 대한 경험이 별로 없습니다. 그래도 학교에서 교양과목으로 파이썬과 C언어를 기초적인 레벨로 배웠으며, 캠프 시작 전에 웹개발 종합반에서 어떤 식으로 흘러가는지 대략은 체험해봤습니다. 아직 완전히 이해한 건 아니지만 그래도 인터넷에서 남들이 해놓은 것을 보고 따라할 정도는 되는 것 같습니다.</a>
+        </h2>
+        <h1 style="margin-top: 5.5%; font-size: 35px; margin-left:5px; margin-right: 300px; font-weight: 300; word-break: keep-all" id="what">
+            What I Like</h1>
+        <h2 style="margin-top: 1%; color: rgb(153, 153, 153); margin-left:5px; margin-right: 300px; font-weight: 300; word-break: keep-all">
+            <a style = "width: 70%; text-align: right; margin-top: 9%; margin-right: 5%;">기본적으로 집돌이 성향이라 밖에서 사람을 만나는 것보단 집에서 혼자 시간을 때우는 걸 선호하는 편입니다. 그래도 집에만 틀어박혀 있으면 골병이 들기 때문에 하루에 한번은 외출하고 있습니다. 밖에서는 주로 카페에 가는 걸 선호합니다.</a>
+        </h2>
+        <h2 style="margin-top: 1%; color: rgb(153, 153, 153); margin-left:5px; margin-right: 300px; font-weight: 300; word-break: keep-all">
+            <img class="fav" src="https://t1.daumcdn.net/cfile/tistory/2478FC375182416B07">
+            <img class="fav" src="https://i.namu.wiki/i/aRAQu813Cdn2FJ5Uo3bxqMPqxGnQX7qSHbGsQiiKBbzruZKKKXOjBmVQuietbkSvq54sGhe7RFKa16HqIsLyFQ.webp">
+        </h2>
+        <h2 style="margin-top: 1%; color: rgb(153, 153, 153); margin-left:5px; margin-right: 300px; font-weight: 300; word-break: keep-all">
+            <a style = "width: 70%; text-align: right; margin-top: 9%; margin-right: 5%;">원래는 영화 보는 걸 좋아했지만 코로나와 티켓값 인상 등으로 최근에는 자주 못보고 있습니다. 예전엔 MCU 영화를 굉장히 좋아했고 특히 아이언맨을 좋아했지만 요즘 나오는 영화들은 완성도가 실망스러운 경우가 많아서 관심에서 멀어졌습니다. 최근 본 영화 중에선 엘리멘탈을 재밌게 봤습니다.</a>
+        </h2>
+        <h2 style="margin-top: 1%; color: rgb(153, 153, 153); margin-left:5px; margin-right: 300px; font-weight: 300; word-break: keep-all">
+            <img class="fav" src="https://static-cdn.jtvnw.net/jtv_user_pictures/3ea140c0-bc41-44d0-9651-787fb2b6c029-profile_image-300x300.png">
+            <img class="fav" src="https://upload.wikimedia.org/wikipedia/commons/0/05/LK-99_pellet.png">
+        </h2>
+        <h2 style="margin-top: 1%; color: rgb(153, 153, 153); margin-left:5px; margin-right: 300px; font-weight: 300; word-break: keep-all">
+            <a style = "width: 70%; text-align: right; margin-top: 9%; margin-right: 5%;">요즘에는 유튜브로 영화 요약, 게임, 과학 등등 여러 주제의 영상을 찾아보고 있습니다. 가장 좋아하는 유튜버는 침착맨입니다. 최근에는 상온 초전도체에 대해 관심을 가지고 있습니다.</a>
+        </h2>
+    </div>
+</body>
+
+</html>
